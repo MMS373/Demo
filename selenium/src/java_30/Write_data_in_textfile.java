@@ -9,7 +9,6 @@ import java.io.IOException;
 public class Write_data_in_textfile {
 
 	public static void main(String[] args) throws IOException{
-		// TODO Auto-generated method stub
 FileWriter fw=new FileWriter("C:\\Users\\hi\\OneDrive\\Documents\\new 17.txt");
 BufferedWriter bw=new BufferedWriter(fw);
 bw.write("this was  1st timne");
