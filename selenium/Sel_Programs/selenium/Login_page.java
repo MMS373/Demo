@@ -39,6 +39,7 @@ public class Login_page {
         driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy"); // find the input field with type containing pass by css selector and enter "rahulshettyacademy"
         driver.findElement(By.id("chkboxOne")).click(); // find the checkbox with id chkboxOne by id and click it
         driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click(); // find the button with class containing submit by xpath and click
+   driver.close();
     }
 
 }
