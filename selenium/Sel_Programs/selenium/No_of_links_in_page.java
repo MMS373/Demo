@@ -17,7 +17,7 @@ package selenium;
 	//1. Give me the count of links on the page.
 			//2. Count of footer section-
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\work\\chromedriver.exe");
+	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\hi\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 			
 			driver.get("http://qaclickacademy.com/practice.php");

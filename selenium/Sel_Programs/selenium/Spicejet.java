@@ -14,9 +14,8 @@ public class Spicejet {
 
 // TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\hi\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\hi\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
 
 		driver.get("http://spicejet.com"); // URL in the browser
 

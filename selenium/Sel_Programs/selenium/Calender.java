@@ -11,7 +11,7 @@ package selenium;
 	public static void main(String[] args) {
 	// TODO Auto-generated method stub
 
-	System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\hi\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 	ChromeDriver driver=new ChromeDriver();
 	driver.get("https://www.path2usa.com/travel-companions");
 	//April 23

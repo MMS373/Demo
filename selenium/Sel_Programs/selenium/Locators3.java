@@ -16,7 +16,7 @@ public static void main(String[] args) {
 
 
 
-System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\hi\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 
 WebDriver driver = new ChromeDriver();
 
