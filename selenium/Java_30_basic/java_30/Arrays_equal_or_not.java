@@ -18,7 +18,7 @@ public class Arrays_equal_or_not {
 	        }
 	        for(int i=0;i<A2.length;i++) {
 	        	System.out.println("enter an element in A2"); // Prompt the user to enter an element of the array
-	        	  A2[i]=sc.nextInt(); // Store the user input in the current element of the array
+	        	  A2[i]=sc.nextInt(); // Store the user input in the current element
 	        }
 	        	
 	        //Approach !
